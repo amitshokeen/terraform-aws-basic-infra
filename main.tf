@@ -5,3 +5,7 @@ module "my_ec2_instance" {
   number_of_instances = var.number_of_instances
   ec2_ami_id          = var.ec2_ami_id
 }
+
+output ec2_instance_id {
+  value = module.my_ec2_instance.ec2_instance_id
+}
