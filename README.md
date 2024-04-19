@@ -38,3 +38,12 @@ Basic infra setup on AWS (VPC, EC2, SG, ELB, ASG, RDS)
   If that too fails, then kill the current terminal, start a new one, and do the plan, apply, or destry as needed. <br>
   Refer this:
     * https://stackoverflow.com/questions/65595852/terraform-statefile-is-locked-how-do-i-unlock-it
+
+* TO-DO:
+  * make more modules and use outputs
+  * use public terraform modules > google for "terraform module vpc" etc.
+  * implement state locking on S3 + DynamoDB
+  * implement state locking using Terraform Cloud + git
+  * if Terraform Enterprise is free, try the same
+  * Use the prod workspace
+  * use data sources, filters etc.
