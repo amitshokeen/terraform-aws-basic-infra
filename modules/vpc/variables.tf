@@ -1,20 +1,20 @@
 variable "environment" {
-  type = string
+  type    = string
   default = "dev"
 }
 
 variable "vpc_cidr" {
-    type = string
-    default = "10.0.0.0/16"
+  type    = string
+  default = "10.0.0.0/16"
 }
 
 variable "public_subnet_cidr" {
-  type = string
+  type    = string
   default = "10.0.1.0/24"
 }
 
 variable "az_a" {
-    type = string
-    default = "ap-southeast-2a"
+  type    = string
+  default = "ap-southeast-2a"
 }
 
